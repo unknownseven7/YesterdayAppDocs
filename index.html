@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reset: Habit Tracker</title>
+    <style>
+        :root {
+            --bg: #f6f1e8;
+            --surface: #fffaf3;
+            --text: #2d332f;
+            --muted: #6f776f;
+            --accent: #6f8f78;
+            --border: #ddd3c5;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(180deg, #f8f4ec 0%, var(--bg) 100%);
+            color: var(--text);
+        }
+
+        main {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 40px 20px 72px;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 24px;
+            margin-top: 18px;
+            box-shadow: 0 12px 28px rgba(90, 79, 60, 0.08);
+        }
+
+        h1, h2 {
+            margin: 0 0 12px;
+        }
+
+        p, li {
+            line-height: 1.6;
+        }
+
+        .pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 18px;
+        }
+
+        .pill {
+            background: #edf3ee;
+            color: var(--text);
+            border-radius: 999px;
+            padding: 10px 14px;
+            border: 1px solid #d5e0d7;
+            text-decoration: none;
+        }
+
+        a {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Reset: Habit Tracker</h1>
+    <p>A calm habit tracker for easily distracted adults. Build a few meaningful routines, check in with one tap, and keep going without shame.</p>
+
+    <div class="pill-row">
+        <a class="pill" href="./privacy.html">Privacy Policy</a>
+        <a class="pill" href="./support.html">Support</a>
+        <a class="pill" href="mailto:habitappemailcontact@gmail.com">Contact Email</a>
+    </div>
+
+    <section class="card">
+        <h2>What Reset focuses on</h2>
+        <ul>
+            <li>One habit for free, unlimited habits after a one-time unlock</li>
+            <li>Simple daily reminders and large tap targets</li>
+            <li>Badges, streaks, and a gentle weekly view</li>
+            <li>No harsh failure language</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Examples</h2>
+        <p>Walk for 30 minutes, meditate for 10 minutes, read 10 pages, stretch for 5 minutes, journal for 5 minutes, or take vitamins.</p>
+    </section>
+
+    <section class="card">
+        <h2>Support</h2>
+        <p>Questions, bug reports, and suggestions can be sent to <a href="mailto:habitappemailcontact@gmail.com">habitappemailcontact@gmail.com</a>.</p>
+    </section>
+</main>
+</body>
+</html>
