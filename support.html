@@ -3,27 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Reset: Habit Tracker Support</title>
+    <title>Yesterday Support</title>
     <style>
         :root {
-            --bg: #f6f1e8;
-            --surface: #fffaf3;
-            --text: #2d332f;
-            --accent: #6f8f78;
-            --border: #ddd3c5;
+            --bg: #f7edd8;
+            --surface: #fdf5e4;
+            --text: #2b1e0f;
+            --muted: #6b4f35;
+            --accent: #a0522d;
+            --border: #d5c9ae;
         }
 
         body {
             margin: 0;
-            font-family: "Segoe UI", sans-serif;
+            font-family: Georgia, "Times New Roman", serif;
             background: var(--bg);
             color: var(--text);
         }
 
         main {
-            max-width: 780px;
+            max-width: 820px;
             margin: 0 auto;
-            padding: 40px 20px 72px;
+            padding: 44px 20px 72px;
+        }
+
+        h1, h2 {
+            margin: 0 0 12px;
+        }
+
+        p, li {
+            line-height: 1.7;
         }
 
         .card {
@@ -34,12 +43,16 @@
             margin-top: 18px;
         }
 
-        h1, h2 {
-            margin: 0 0 12px;
-        }
-
-        p, li {
-            line-height: 1.65;
+        .button {
+            display: inline-block;
+            padding: 12px 16px;
+            border-radius: 999px;
+            background: rgba(160, 82, 45, 0.1);
+            border: 1px solid var(--border);
+            color: var(--text);
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
         }
 
         a {
@@ -54,22 +67,22 @@
 
     <section class="card">
         <h2>Contact</h2>
-        <p>Email <a href="mailto:habitappemailcontact@gmail.com">habitappemailcontact@gmail.com</a>.</p>
+        <p>Email <a href="mailto:yesterdayappemailcontact@gmail.com">yesterdayappemailcontact@gmail.com</a>.</p>
     </section>
 
     <section class="card">
         <h2>Helpful details to include</h2>
         <ul>
-            <li>What happened</li>
+            <li>What actually happened</li>
             <li>What you expected to happen</li>
             <li>Your Android version and device model</li>
-            <li>Whether the issue involved reminders, billing, or badges</li>
+            <li>Whether the issue involved reminders, billing, export, or premium unlock</li>
         </ul>
     </section>
 
     <section class="card">
         <h2>Response</h2>
-        <p>Support replies will be sent to the email address you use to contact Reset.</p>
+        <p>Support replies will be sent to the email address you use to contact Yesterday.</p>
     </section>
 </main>
 </body>

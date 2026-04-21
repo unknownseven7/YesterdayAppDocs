@@ -3,15 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Reset: Habit Tracker</title>
+    <title>Yesterday</title>
     <style>
         :root {
-            --bg: #f6f1e8;
-            --surface: #fffaf3;
-            --text: #2d332f;
-            --muted: #6f776f;
-            --accent: #6f8f78;
-            --border: #ddd3c5;
+            --bg: #f7edd8;
+            --surface: #fdf5e4;
+            --text: #2b1e0f;
+            --muted: #6b4f35;
+            --accent: #a0522d;
+            --accent-light: #c8855a;
+            --border: #d5c9ae;
         }
 
         * {
@@ -20,15 +21,32 @@
 
         body {
             margin: 0;
-            font-family: "Segoe UI", sans-serif;
-            background: linear-gradient(180deg, #f8f4ec 0%, var(--bg) 100%);
+            font-family: Georgia, "Times New Roman", serif;
+            background: linear-gradient(180deg, #fbf4e5 0%, var(--bg) 100%);
             color: var(--text);
         }
 
         main {
-            max-width: 780px;
+            max-width: 820px;
             margin: 0 auto;
-            padding: 40px 20px 72px;
+            padding: 44px 20px 72px;
+        }
+
+        h1, h2 {
+            margin: 0 0 12px;
+        }
+
+        p, li {
+            line-height: 1.7;
+        }
+
+        .eyebrow {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 10px;
         }
 
         .card {
@@ -37,31 +55,26 @@
             border-radius: 24px;
             padding: 24px;
             margin-top: 18px;
-            box-shadow: 0 12px 28px rgba(90, 79, 60, 0.08);
-        }
-
-        h1, h2 {
-            margin: 0 0 12px;
-        }
-
-        p, li {
-            line-height: 1.6;
+            box-shadow: 0 10px 28px rgba(80, 55, 32, 0.08);
         }
 
         .pill-row {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            margin-top: 18px;
+            margin-top: 20px;
         }
 
         .pill {
-            background: #edf3ee;
-            color: var(--text);
-            border-radius: 999px;
+            display: inline-block;
             padding: 10px 14px;
-            border: 1px solid #d5e0d7;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: rgba(160, 82, 45, 0.08);
             text-decoration: none;
+            color: var(--text);
+            font-family: Arial, sans-serif;
+            font-size: 14px;
         }
 
         a {
@@ -71,33 +84,38 @@
 </head>
 <body>
 <main>
-    <h1>Reset: Habit Tracker</h1>
-    <p>A calm habit tracker for easily distracted adults. Build a few meaningful routines, check in with one tap, and keep going without shame.</p>
+    <div class="eyebrow">Yesterday</div>
+    <h1>One moment. One sentence. Every day.</h1>
+    <p>Yesterday is a minimalist daily memory app for Android. It asks one question each day: "What's one thing from today worth remembering?" Over time, those brief notes become a quiet record of ordinary life.</p>
 
     <div class="pill-row">
         <a class="pill" href="./privacy.html">Privacy Policy</a>
-        <a class="pill" href="./support.html">Support</a>
-        <a class="pill" href="mailto:habitappemailcontact@gmail.com">Contact Email</a>
+        <a class="pill" href="./support.html">Contact Support</a>
     </div>
 
     <section class="card">
-        <h2>What Reset focuses on</h2>
+        <h2>What makes it different</h2>
         <ul>
-            <li>One habit for free, unlimited habits after a one-time unlock</li>
-            <li>Simple daily reminders and large tap targets</li>
-            <li>Badges, streaks, and a gentle weekly view</li>
-            <li>No harsh failure language</li>
+            <li>It is not a blank-page journal. There is one prompt and one moment to capture.</li>
+            <li>It is local-first. Your memories stay on your device unless you choose to export or share them.</li>
+            <li>It values ordinary life. Mundane memories count just as much as milestone ones.</li>
         </ul>
     </section>
 
     <section class="card">
-        <h2>Examples</h2>
-        <p>Walk for 30 minutes, meditate for 10 minutes, read 10 pages, stretch for 5 minutes, journal for 5 minutes, or take vitamins.</p>
+        <h2>What Yesterday includes</h2>
+        <ul>
+            <li>One daily memory entry</li>
+            <li>A readable archive of everything you have written</li>
+            <li>On This Day resurfacing</li>
+            <li>Montage views that gather past memories into one quieter picture</li>
+            <li>Optional one-time premium unlock for deeper rediscovery, search, export, and sharing</li>
+        </ul>
     </section>
 
     <section class="card">
         <h2>Support</h2>
-        <p>Questions, bug reports, and suggestions can be sent to <a href="mailto:habitappemailcontact@gmail.com">habitappemailcontact@gmail.com</a>.</p>
+        <p>If you need help with the app, visit the <a href="./support.html">support page</a> or email <a href="mailto:yesterdayappemailcontact@gmail.com">yesterdayappemailcontact@gmail.com</a>.</p>
     </section>
 </main>
 </body>
